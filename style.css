@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px;
+    width: 1100px;
+    height: 620px;
+    border: 1px solid black;
+    box-shadow: 5px -5px 10px grey;
+
+}
+#grid {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: grid ;
+    grid-template-rows: 1fr 1fr 1fr !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    grid-gap: 1px;
+}
+#grid .td {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: table;
+}
+#grid .td span {
+    display: table-cell;
+    height: 200px;
+    width: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.alert{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:-150px;
+    margin-top: -150px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background: grey;
+    display: table;
+}
+.alert h2{
+    display: table-cell;
+    vertical-align: middle;
+}
