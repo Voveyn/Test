@@ -4,10 +4,6 @@ class check{
     public $return=array();
     public $count;
 
-    public $firstLine = array();
-    public $secondLine = array();
-    public $thirdLine = array();
-
     public $style;
 
     public $info = array();
@@ -59,26 +55,6 @@ class check{
     }
 
     public function thirdCheck(){
-        $firstRow = array(1,2,3);
-        $secondRow = array(4,5,6);
-        $thirdRow = array(7,8,9);
-
-
-//        foreach($this->return as $val){
-//            $newarr = explode(',', $val);
-//            sort($newarr, SORT_ASC);
-//            array_push($this->firstLine,array_intersect($firstRow, $newarr));
-//            array_push($this->secondLine,array_intersect($secondRow, $newarr));
-//            array_push($this->thirdLine,array_intersect($thirdRow, $newarr));
-//        }
-
-        foreach($this->return as $val){
-            $newarr = explode(',', $val);
-            sort($newarr, SORT_ASC);
-            $this->firstLine=array_intersect($firstRow, $newarr);
-            $this->secondLine=array_intersect($secondRow, $newarr);
-            $this->thirdLine=array_intersect($thirdRow, $newarr);
-        }
 
 
         for($i=0; $i<=$this->count-1; $i++) {

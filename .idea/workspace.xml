@@ -14,8 +14,8 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="288" column="37" lean-forward="true" selection-start-line="288" selection-start-column="37" selection-end-line="288" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -78,6 +78,7 @@
       <find>$f</find>
       <find>$l</find>
       <find>echo</find>
+      <find>line</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,12 +171,12 @@
       <workItem from="1550664313190" duration="22896000" />
       <workItem from="1550707447043" duration="4731000" />
       <workItem from="1550755858471" duration="31568000" />
-      <workItem from="1550807752263" duration="805000" />
+      <workItem from="1550807752263" duration="1066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76417000" />
+    <option name="totallyTimeSpent" value="76678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -452,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="288" column="37" lean-forward="true" selection-start-line="288" selection-start-column="37" selection-end-line="288" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
